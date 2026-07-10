@@ -4,6 +4,7 @@ site_url: https://sitename.example
 
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Inter # all google fonts are 
     code: Red Hat Mono
@@ -33,8 +34,23 @@ plugins:
       blog_dir: .
   - tags:
       tags_file: tags.md
+  - rss:
+      match_path: "posts/.*" 
+      pretty_print: true 
+      date_from_meta: 
+        as_creation: date.created 
+        as_update: date.updated
 
-
+  - git-committers: 
+      enabled: true 
+      repository: JHANSI-REDDY-TANGIRALA/mkdocs_practice
+      branch: main 
+      token: !ENV GH_TOKEN 
+  - git-revision-date-localized: 
+      type: date 
+      fallback_to_build_date: false 
+      enable_creation_date: true 
+      enabled: true
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
