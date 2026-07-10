@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    
+    <title>JHANSI&#39;s Work Documentation</title>
+    <description>you can find all my documented work here.</description>
+    <link>https://sitename.example/</link>
+    <atom:link href="https://sitename.example/feed_rss_created.xml" rel="self" type="application/rss+xml" />
+
+    
+    
+    
+    <language>en</language>
+
+    
+    <pubDate>Fri, 10 Jul 2026 07:30:51 -0000</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 07:30:51 -0000</lastBuildDate>
+    <ttl>1440</ttl>
+
+    
+    <generator>MkDocs RSS plugin - v1.19.0</generator>
+
+    
+    
+    <image>
+      <url>None</url>
+      <title>JHANSI's Work Documentation</title>
+      <link>https://sitename.example/</link>
+    </image>
+    
+
+    
+    
+    <item>
+      <title>My First Blog Post</title>
+      
+      
+        
+      <author>Anish</author>
+        
+      <author>Team</author>
+        
+      
+      
+      
+      <description>&lt;h1&gt;My First Blog Post&lt;/h1&gt;</description>
+      <link>https://sitename.example/2026/06/26/my-first-blog-post/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <source url="https://sitename.example/feed_rss_created.xml">JHANSI's Work Documentation</source>
+      
+      <guid isPermaLink="true">https://sitename.example/2026/06/26/my-first-blog-post/</guid>
+      
+    </item>
+    
+    <item>
+      <title>My Third Blog Post</title>
+      
+      
+        
+      <author>Team</author>
+        
+      <author>623182@student.nitandhra.ac.in (JHANSI REDDY TANGIRALA)</author>
+        
+      
+      
+      
+      <description>&lt;h1&gt;My Third Blog Post&lt;/h1&gt;
+&lt;p&gt;This is the text for my third blog post. &lt;/p&gt;</description>
+      <link>https://sitename.example/2025/12/07/my-third-blog-post/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      <source url="https://sitename.example/feed_rss_created.xml">JHANSI's Work Documentation</source>
+      
+      <guid isPermaLink="true">https://sitename.example/2025/12/07/my-third-blog-post/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Life update</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Life update&lt;/h1&gt;
+&lt;p&gt;This is a blog post about some life updates ... &lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;how&#39;s the logo?&#34; src=&#34;favicon_3.png&#34;&gt;&lt;/p&gt;</description>
+      <link>https://sitename.example/2024/06/07/life-update/</link>
+      <pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate>
+      <source url="https://sitename.example/feed_rss_created.xml">JHANSI's Work Documentation</source>
+      
+      <guid isPermaLink="true">https://sitename.example/2024/06/07/life-update/</guid>
+      
+    </item>
+    
+  </channel>
+</rss>
