@@ -1,10 +1,11 @@
 site_name: JHANSI's Work Documentation
+site_description: you can find all my documented work here.
 site_url: https://sitename.example
 
 theme:
   name: material
   font:
-    text: Inter
+    text: Inter # all google fonts are 
     code: Red Hat Mono
   logo: assets/logo.png
   favicon: assets/favicon.png
@@ -26,6 +27,12 @@ theme:
         name: Light mode
       primary: blue
       accent: deep orange
+plugins:
+  - search
+  - blog:
+      blog_dir: .
+  - tags:
+      tags_file: tags.md
 
 
 markdown_extensions:
@@ -54,3 +61,5 @@ extra:
     - icon: simple/gmail
       link: mailto:623182@student.nitandhra.ac.in
 
+hooks:
+  - hooks/socialmedia.py
