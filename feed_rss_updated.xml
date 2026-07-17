@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Fri, 10 Jul 2026 07:47:47 -0000</pubDate>
-    <lastBuildDate>Fri, 10 Jul 2026 07:47:47 -0000</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 06:59:16 -0000</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 06:59:16 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,14 +38,12 @@
         
       <author>Anish</author>
         
-      <author>Team</author>
-        
       
       
       
       <description>&lt;h1&gt;My First Blog Post&lt;/h1&gt;</description>
       <link>https://sitename.example/2026/06/26/my-first-blog-post/</link>
-      <pubDate>Fri, 10 Jul 2026 12:08:32 +0000</pubDate>
+      <pubDate>Fri, 17 Jul 2026 12:02:52 +0000</pubDate>
       <source url="https://sitename.example/feed_rss_updated.xml">JHANSI's Work Documentation</source>
       
       <guid isPermaLink="true">https://sitename.example/2026/06/26/my-first-blog-post/</guid>
@@ -74,7 +72,7 @@
       
       
         
-      <author>Team</author>
+      <author>Anish</author>
         
       <author>623182@student.nitandhra.ac.in (JHANSI REDDY TANGIRALA)</author>
         

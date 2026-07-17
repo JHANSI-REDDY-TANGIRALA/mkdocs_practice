@@ -14,14 +14,11 @@
             "title": "My First Blog Post",
             "content_html": "<h1>My First Blog Post</h1>",
             "image": null,
-            "date_modified": "2026-07-10T12:08:32+00:00",
+            "date_modified": "2026-07-17T12:02:52+00:00",
             "date_published": "2026-06-26T00:00:00+00:00",
             "authors": [
                 {
                     "name": "Anish"
-                },
-                {
-                    "name": "Team"
                 }
             ],
             "tags": null
@@ -36,7 +33,7 @@
             "date_published": "2025-12-07T00:00:00+00:00",
             "authors": [
                 {
-                    "name": "Team"
+                    "name": "Anish"
                 },
                 {
                     "name": "623182@student.nitandhra.ac.in (JHANSI REDDY TANGIRALA)"
