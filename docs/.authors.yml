@@ -3,13 +3,9 @@ authors:
     name: JHANSI REDDY TANGIRALA
     description: creator
     email: 623182@student.nitandhra.ac.in
-    avatar: https://cdn.jsdelivr.net/gh/alohe/avatars/png/bluey_4.png
+    avatar: assets/jhansi_author.png
     url: https://github.com/JHANSI-REDDY-TANGIRALA
-  team:
-    name: Team
-    description: creator
-    avatar: https://cdn.jsdelivr.net/gh/alohe/avatars/png/toon_10.png
-  Research:
+  Anish:
     name: Anish
     description: co-author
     avatar: https://cdn.jsdelivr.net/gh/alohe/avatars/png/bluey_3.png
