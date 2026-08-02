@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="rss.xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     
-    <title>JHANSI&#39;s Work Documentation</title>
+    <title>JHANSI REDDY TANGIRALA</title>
     <description>you can find all my documented work here.</description>
     <link>https://sitename.example/</link>
     <atom:link href="https://sitename.example/feed_rss_created.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Fri, 17 Jul 2026 06:59:16 -0000</pubDate>
-    <lastBuildDate>Fri, 17 Jul 2026 06:59:16 -0000</lastBuildDate>
+    <pubDate>Sun, 02 Aug 2026 10:03:32 -0000</pubDate>
+    <lastBuildDate>Sun, 02 Aug 2026 10:03:32 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -24,7 +24,7 @@
     
     <image>
       <url>None</url>
-      <title>JHANSI's Work Documentation</title>
+      <title>JHANSI REDDY TANGIRALA</title>
       <link>https://sitename.example/</link>
     </image>
     
@@ -36,7 +36,7 @@
       
       
         
-      <author>Anish</author>
+      <author>623182@student.nitandhra.ac.in (JHANSI REDDY TANGIRALA)</author>
         
       
       
@@ -44,7 +44,7 @@
       <description>&lt;h1&gt;My First Blog Post&lt;/h1&gt;</description>
       <link>https://sitename.example/2026/06/26/my-first-blog-post/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <source url="https://sitename.example/feed_rss_created.xml">JHANSI's Work Documentation</source>
+      <source url="https://sitename.example/feed_rss_created.xml">JHANSI REDDY TANGIRALA</source>
       
       <guid isPermaLink="true">https://sitename.example/2026/06/26/my-first-blog-post/</guid>
       
@@ -55,8 +55,6 @@
       
       
         
-      <author>Anish</author>
-        
       <author>623182@student.nitandhra.ac.in (JHANSI REDDY TANGIRALA)</author>
         
       
@@ -66,26 +64,26 @@
 &lt;p&gt;This is the text for my third blog post. &lt;/p&gt;</description>
       <link>https://sitename.example/2025/12/07/my-third-blog-post/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-      <source url="https://sitename.example/feed_rss_created.xml">JHANSI's Work Documentation</source>
+      <source url="https://sitename.example/feed_rss_created.xml">JHANSI REDDY TANGIRALA</source>
       
       <guid isPermaLink="true">https://sitename.example/2025/12/07/my-third-blog-post/</guid>
       
     </item>
     
     <item>
-      <title>Life update</title>
+      <title>About me</title>
       
       
       
       
-      <description>&lt;h1&gt;Life update&lt;/h1&gt;
-&lt;p&gt;This is a blog post about some life updates ... &lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;how&#39;s the logo?&#34; src=&#34;favicon_3.png&#34;&gt;&lt;/p&gt;</description>
-      <link>https://sitename.example/2024/06/07/life-update/</link>
+      <description>&lt;h1&gt;About me&lt;/h1&gt;
+&lt;p&gt;So who is JHANSI? &lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;how&#39;s the logo?&#34; src=&#34;jhansi_forest.png&#34;&gt;&lt;/p&gt;</description>
+      <link>https://sitename.example/2024/06/07/about-me/</link>
       <pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate>
-      <source url="https://sitename.example/feed_rss_created.xml">JHANSI's Work Documentation</source>
+      <source url="https://sitename.example/feed_rss_created.xml">JHANSI REDDY TANGIRALA</source>
       
-      <guid isPermaLink="true">https://sitename.example/2024/06/07/life-update/</guid>
+      <guid isPermaLink="true">https://sitename.example/2024/06/07/about-me/</guid>
       
     </item>
     
