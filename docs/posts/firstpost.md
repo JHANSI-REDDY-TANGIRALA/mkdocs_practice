@@ -2,7 +2,6 @@
 date: 
     created: 2026-06-26
 links: #related links on left
-    - Projects: index.md
     - second post: posts/secondpost.md
 categories:
     - experience
@@ -10,7 +9,7 @@ categories:
 tags:
     - RISC V
 authors:
-    - Anish
+    - Jhansi
 ---
 
 # My First Blog Post

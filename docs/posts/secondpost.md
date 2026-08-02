@@ -10,7 +10,7 @@ tags:
     - FPGA
     - Computer Arch
 authors:
-    - jhansi
+    - Jhansi
 ---
 
 # My Second Post! 

@@ -10,4 +10,13 @@ So who is JHANSI?
 
 <!-- more --> 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+##Summary
+Electronics and Communications Engineering student at National Institution of Technology Andhra Pradesh with experience in FPGA design, computer architecture, radar and signal processing. Currently seeking internship opportunities to develop efficient and scalable hard
+ware systems. Interested in contributing to multidisciplinary engineering solutions with a focus on
+hardware–software co-design.
+
+##Carrer Objective
+I am looking forward to collaborating with companies/individuals on a year long project (further details will be released soon..).
+
+##Extracurricular Activities
+Outside of Academics, I'm very outgoing person and very much into sports. I play volleyball, badminton, handball and swimming. Recently started running as well.

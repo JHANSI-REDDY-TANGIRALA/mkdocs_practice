@@ -73,6 +73,8 @@ extra:
   social:
     - icon: simple/gmail
       link: mailto:623182@student.nitandhra.ac.in
+    - icon: material/phone
+      link: tel:+91-9391448070
 hooks:
   - hooks/socialmedia.py
 

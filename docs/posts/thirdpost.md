@@ -7,8 +7,7 @@ tags:
     - FPGA
     - Signal Processing
 authors:
-    - Anish
-    - jhansi
+    - Jhansi
 ---
 
 # My Third Blog Post 
