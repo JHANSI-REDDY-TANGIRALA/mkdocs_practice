@@ -1,19 +1,16 @@
-site_name: JHANSI's Work Documentation
+
+site_name: JHANSI REDDY TANGIRALA
 site_description: you can find all my documented work here.
 site_url: https://sitename.example
-
 
 theme:
   name: material
   custom_dir: overrides
-
   font:
     text: Inter # all google fonts are 
     code: Red Hat Mono
-
   logo: assets/logo.png
   favicon: assets/favicon.png
-
   features:
     - navigation.footer
     - navigation.tracking
@@ -22,7 +19,6 @@ theme:
     - navigation.path
     - navigation.top
     - toc.follow
-
   palette:
     # Dark Mode
     - scheme: slate
@@ -39,7 +35,6 @@ theme:
       primary: blue
       accent: deep orange
 
-
 plugins:
   - search
   - blog:
@@ -52,7 +47,6 @@ plugins:
       date_from_meta: 
         as_creation: date.created 
         as_update: date.updated
-
 
 markdown_extensions:
   - attr_list
@@ -75,11 +69,10 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-
 extra:
   social:
     - icon: simple/gmail
       link: mailto:623182@student.nitandhra.ac.in
-
 hooks:
   - hooks/socialmedia.py
+

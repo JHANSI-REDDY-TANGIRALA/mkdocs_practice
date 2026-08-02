@@ -1,11 +1,12 @@
 ---
 date: 
     created: 2024-06-07 
+pin: true
 ---
-# Life update 
-This is a blog post about some life updates ... 
+# About me
+So who is JHANSI? 
 
-![how's the logo?](favicon_3.png)
+![how's the logo?](jhansi_forest.png)
 
 <!-- more --> 
 
