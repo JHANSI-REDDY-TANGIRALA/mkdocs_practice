@@ -1,6 +1,6 @@
 #SAT
 
-!!! note "The SAT test"
+!!! info "The SAT test"
     The SAT is a standardized test widely used for college admissions in the United States. Created and administered by the College Board, the exam assesses a student’s readiness for college by evaluating key skills in reading, writing, and mathematics 
     - Definition provided by MAGOOSH
 

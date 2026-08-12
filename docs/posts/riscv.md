@@ -1,16 +1,22 @@
 ---
 date: 
-    created: 2025-12-07 
-    updated: 2025-12-08 
-readtime: 5 
+    created: 2025-02-05
+    updated: 2025-04-26
+    
+categories:
+    - Projects
+
 tags:
-    - FPGA
-    - Signal Processing
+    - RISC V
+    - TL-Verilog
+    - Computer Architecture
+    - Makerchip
+
 authors:
     - Jhansi
 ---
 
-# My Third Blog Post 
+# RISC V CPU Core
 This is the text for my third blog post. 
 
 <!-- more --> 

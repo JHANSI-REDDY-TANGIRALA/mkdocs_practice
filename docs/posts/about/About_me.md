@@ -6,7 +6,7 @@ pin: true
 # About me
 So who is JHANSI? 
 
-![how's the logo?](jhansi_forest.png)
+![how's the logo?](logo.png)
 
 <!-- more --> 
 

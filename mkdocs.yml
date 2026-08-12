@@ -47,6 +47,13 @@ plugins:
       date_from_meta: 
         as_creation: date.created 
         as_update: date.updated
+  - mkdocs-video:
+      is_video: true
+      video_muted: true
+      video_autoplay: true
+      video_controls: true
+      css_style: 
+        width: "46%"
 
 markdown_extensions:
   - attr_list
