@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Sun, 02 Aug 2026 10:03:32 -0000</pubDate>
-    <lastBuildDate>Sun, 02 Aug 2026 10:03:32 -0000</lastBuildDate>
+    <pubDate>Wed, 12 Aug 2026 10:40:24 -0000</pubDate>
+    <lastBuildDate>Wed, 12 Aug 2026 10:40:24 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -32,25 +32,6 @@
     
     
     <item>
-      <title>My First Blog Post</title>
-      
-      
-        
-      <author>623182@student.nitandhra.ac.in (JHANSI REDDY TANGIRALA)</author>
-        
-      
-      
-      
-      <description>&lt;h1&gt;My First Blog Post&lt;/h1&gt;</description>
-      <link>https://sitename.example/2026/06/26/my-first-blog-post/</link>
-      <pubDate>Sun, 02 Aug 2026 15:12:24 +0000</pubDate>
-      <source url="https://sitename.example/feed_rss_updated.xml">JHANSI REDDY TANGIRALA</source>
-      
-      <guid isPermaLink="true">https://sitename.example/2026/06/26/my-first-blog-post/</guid>
-      
-    </item>
-    
-    <item>
       <title>About me</title>
       
       
@@ -58,9 +39,9 @@
       
       <description>&lt;h1&gt;About me&lt;/h1&gt;
 &lt;p&gt;So who is JHANSI? &lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;how&#39;s the logo?&#34; src=&#34;jhansi_forest.png&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;how&#39;s the logo?&#34; src=&#34;logo.png&#34;&gt;&lt;/p&gt;</description>
       <link>https://sitename.example/2024/06/07/about-me/</link>
-      <pubDate>Sun, 02 Aug 2026 15:12:24 +0000</pubDate>
+      <pubDate>Wed, 12 Aug 2026 16:05:46 +0000</pubDate>
       <source url="https://sitename.example/feed_rss_updated.xml">JHANSI REDDY TANGIRALA</source>
       
       <guid isPermaLink="true">https://sitename.example/2024/06/07/about-me/</guid>
@@ -68,7 +49,7 @@
     </item>
     
     <item>
-      <title>My Third Blog Post</title>
+      <title>Custom Hardware Accelerator for Matrix Multiplication Using SIMD Processing Element</title>
       
       
         
@@ -77,13 +58,54 @@
       
       
       
-      <description>&lt;h1&gt;My Third Blog Post&lt;/h1&gt;
-&lt;p&gt;This is the text for my third blog post. &lt;/p&gt;</description>
-      <link>https://sitename.example/2025/12/07/my-third-blog-post/</link>
-      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+      <description>&lt;h1&gt;Custom Hardware Accelerator for Matrix Multiplication Using SIMD Processing Element&lt;/h1&gt;
+&lt;p&gt;This is my second blog post. I&#39;m actually setting it as a draft so it doesn&#39;t appear yet ... &lt;/p&gt;</description>
+      <link>https://sitename.example/2026/01/09/custom-hardware-accelerator-for-matrix-multiplication-using-simd-processing-element/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
       <source url="https://sitename.example/feed_rss_updated.xml">JHANSI REDDY TANGIRALA</source>
       
-      <guid isPermaLink="true">https://sitename.example/2025/12/07/my-third-blog-post/</guid>
+      <guid isPermaLink="true">https://sitename.example/2026/01/09/custom-hardware-accelerator-for-matrix-multiplication-using-simd-processing-element/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Human Activity and Vital Sign Recognition using Ultra Wide Band Radar</title>
+      
+      
+        
+      <author>623182@student.nitandhra.ac.in (JHANSI REDDY TANGIRALA)</author>
+        
+      <author>623182@student.nitandhra.ac.in (ANISH RAYDURG)</author>
+        
+      
+      
+      
+      <description>&lt;h1&gt;Human Activity and Vital Sign Recognition using Ultra Wide Band Radar&lt;/h1&gt;</description>
+      <link>https://sitename.example/2025/10/06/human-activity-and-vital-sign-recognition-using-ultra-wide-band-radar/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <source url="https://sitename.example/feed_rss_updated.xml">JHANSI REDDY TANGIRALA</source>
+      
+      <guid isPermaLink="true">https://sitename.example/2025/10/06/human-activity-and-vital-sign-recognition-using-ultra-wide-band-radar/</guid>
+      
+    </item>
+    
+    <item>
+      <title>RISC V CPU Core</title>
+      
+      
+        
+      <author>623182@student.nitandhra.ac.in (JHANSI REDDY TANGIRALA)</author>
+        
+      
+      
+      
+      <description>&lt;h1&gt;RISC V CPU Core&lt;/h1&gt;
+&lt;p&gt;This is the text for my third blog post. &lt;/p&gt;</description>
+      <link>https://sitename.example/2025/02/05/risc-v-cpu-core/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+      <source url="https://sitename.example/feed_rss_updated.xml">JHANSI REDDY TANGIRALA</source>
+      
+      <guid isPermaLink="true">https://sitename.example/2025/02/05/risc-v-cpu-core/</guid>
       
     </item>
     

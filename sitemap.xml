@@ -2,78 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sitename.example/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/tags/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Certificates/nptel/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Certificates/nvidia/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Experience/experience/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Projects/project_1/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/Scores/</loc>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Scores/gpa/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Scores/ielts/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Scores/mains/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Scores/nest/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Scores/sat/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/2026/06/26/my-first-blog-post/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <loc>https://sitename.example/2025/10/06/human-activity-and-vital-sign-recognition-using-ultra-wide-band-radar/</loc>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/2025/12/07/my-third-blog-post/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <loc>https://sitename.example/2025/02/05/risc-v-cpu-core/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/2026/01/09/custom-hardware-accelerator-for-matrix-multiplication-using-simd-processing-element/</loc>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/2024/06/07/about-me/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/archive/2024/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/archive/2026/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/archive/2025/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/category/experience/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <loc>https://sitename.example/category/projects/</loc>
+         <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/category/skills/</loc>
-         <lastmod>2026-08-02</lastmod>
+         <loc>https://sitename.example/category/research/</loc>
+         <lastmod>2026-08-12</lastmod>
     </url>
 </urlset>
