@@ -2,7 +2,11 @@
 date: 
     created: 2025-02-05
     updated: 2025-04-26
-    
+
+links: #related links on left
+    - SIMD: posts/simd/simd.md
+    - RADAR: posts/radar/radar.md
+
 categories:
     - Projects
 

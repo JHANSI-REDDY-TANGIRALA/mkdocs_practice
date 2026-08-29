@@ -1,12 +1,15 @@
 ---
 date: 
-    created: 2024-06-07 
+    created: 2026-07-08 
 pin: true
 ---
-# About me
-So who is JHANSI? 
+# Hi there! Glad you chanced upon this page.
+Welcome to my documentation site. Here, you can explore my completed projects, certificates, scores, and ongoing research.  
 
-![how's the logo?](logo.png)
+![JHANSI logo?](logo.png)
+
+
+This is me, Jhansi. So the primary objective of this site is to help students 
 
 <!-- more --> 
 
