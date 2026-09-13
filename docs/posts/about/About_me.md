@@ -6,10 +6,9 @@ pin: true
 # Hi there! Glad you chanced upon this page.
 Welcome to my documentation site. Here, you can explore my completed projects, certificates, scores, and ongoing research.  
 
-![JHANSI logo?](logo.png)
-
-
+![JHANSI logo?](logo.png){width="200", align="left"}
 This is me, Jhansi. So the primary objective of this site is to help students 
+Welcome to my documentation site. Here, you can explore my completed projects, certificates, scores, and ongoing research.  
 
 <!-- more --> 
 

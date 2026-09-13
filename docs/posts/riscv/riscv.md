@@ -21,7 +21,7 @@ authors:
 ---
 
 # RISC V CPU Core
-This is the text for my third blog post. 
+![title riscv](risc_block.png){width="500"}
 
 <!-- more --> 
 

@@ -9,9 +9,9 @@ As a team member, I participated in developing a palm-sized mini drone using the
 
 Duration: Oct 2023 – Apr 2025
 
-![jhansi air](jhansi_air.jpg){width="400", align="left"}
+![jhansi air](jhansi_air.jpg){width="350", align="left"}
 
-![type:video](drone_demo.mp4){align="right"}
+![type:video](drone_demo.mp4){ align="right"}
 
 ---
 

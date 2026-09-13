@@ -19,7 +19,9 @@ authors:
     - Jhansi
 ---
 
-# Custom Hardware Accelerator for Matrix Multiplication Using SIMD Processing Element  
+# Custom Hardware Accelerator for Matrix Multiplication Using SIMD Processing Element 
+![title simd](pe_mul.png){width="500"} 
+
 Besides the long title, what does fluid dynamics, convolutional neural networks, and computer graphics all have in common? That's right *matrix multiplications*.<br>
 So, here's one approach to accelerate those computations. :key: Paralellism
 
