@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Sat, 29 Aug 2026 14:03:06 -0000</pubDate>
-    <lastBuildDate>Sat, 29 Aug 2026 14:03:06 -0000</lastBuildDate>
+    <pubDate>Sun, 13 Sep 2026 12:40:24 -0000</pubDate>
+    <lastBuildDate>Sun, 13 Sep 2026 12:40:24 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -39,10 +39,11 @@
       
       <description>&lt;h1&gt;Hi there! Glad you chanced upon this page.&lt;/h1&gt;
 &lt;p&gt;Welcome to my documentation site. Here, you can explore my completed projects, certificates, scores, and ongoing research.  &lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;JHANSI logo?&#34; src=&#34;logo.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;This is me, Jhansi. So the primary objective of this site is to help students &lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;JHANSI logo?&#34; src=&#34;logo.png&#34;&gt;{width=&#34;200&#34;, align=&#34;left&#34;}
+This is me, Jhansi. So the primary objective of this site is to help students 
+Welcome to my documentation site. Here, you can explore my completed projects, certificates, scores, and ongoing research.  &lt;/p&gt;</description>
       <link>https://sitename.example/2026/07/08/hi-there-glad-you-chanced-upon-this-page/</link>
-      <pubDate>Sat, 29 Aug 2026 19:29:12 +0000</pubDate>
+      <pubDate>Sun, 13 Sep 2026 18:04:44 +0000</pubDate>
       <source url="https://sitename.example/feed_rss_updated.xml">JHANSI REDDY TANGIRALA</source>
       
       <guid isPermaLink="true">https://sitename.example/2026/07/08/hi-there-glad-you-chanced-upon-this-page/</guid>
@@ -60,6 +61,7 @@
       
       
       <description>&lt;h1&gt;Custom Hardware Accelerator for Matrix Multiplication Using SIMD Processing Element&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;title simd&#34; src=&#34;pe_mul.png&#34;&gt;{width=&#34;500&#34;} &lt;/p&gt;
 &lt;p&gt;Besides the long title, what does fluid dynamics, convolutional neural networks, and computer graphics all have in common? That&#39;s right &lt;em&gt;matrix multiplications&lt;/em&gt;.&lt;br&gt;
 So, here&#39;s one approach to accelerate those computations. :key: Paralellism&lt;/p&gt;</description>
       <link>https://sitename.example/2026/01/09/custom-hardware-accelerator-for-matrix-multiplication-using-simd-processing-element/</link>
@@ -83,6 +85,7 @@ So, here&#39;s one approach to accelerate those computations. :key: Paralellism&
       
       
       <description>&lt;h1&gt;Human Activity and Vital Sign Recognition using Ultra Wide Band Radar&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;title radar&#34; src=&#34;resp.jpg&#34;&gt;{width=&#34;500&#34;}&lt;/p&gt;
 &lt;p&gt;UWB Radar, a solution to both contact-free respiration monitoring and non-invasive human motion detection.&lt;/p&gt;</description>
       <link>https://sitename.example/2025/10/06/human-activity-and-vital-sign-recognition-using-ultra-wide-band-radar/</link>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
@@ -103,7 +106,7 @@ So, here&#39;s one approach to accelerate those computations. :key: Paralellism&
       
       
       <description>&lt;h1&gt;RISC V CPU Core&lt;/h1&gt;
-&lt;p&gt;This is the text for my third blog post. &lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;title riscv&#34; src=&#34;risc_block.png&#34;&gt;{width=&#34;500&#34;}&lt;/p&gt;</description>
       <link>https://sitename.example/2025/02/05/risc-v-cpu-core/</link>
       <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
       <source url="https://sitename.example/feed_rss_updated.xml">JHANSI REDDY TANGIRALA</source>
