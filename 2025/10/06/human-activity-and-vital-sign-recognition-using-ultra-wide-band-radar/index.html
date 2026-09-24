@@ -1454,16 +1454,71 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mrm-gui" class="md-nav__link">
+  <a href="#mrm-ret-gui" class="md-nav__link">
     <span class="md-ellipsis">
       
-        MRM GUI
+        MRM RET GUI
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="MRM GUI">
+    <nav class="md-nav" aria-label="MRM RET GUI">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-tab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration Tab
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#control-tab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Control Tab
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scan-tab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scan Tab
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mrm-server-tab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MRM Server tab
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logging-tab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logging Tab
+      
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#initial-setup" class="md-nav__link">
@@ -1477,21 +1532,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#data-collection" class="md-nav__link">
+  <a href="#data-organization-csv-file" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Data collection
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#controls" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Controls
+        Data organization (csv file)
       
     </span>
   </a>
@@ -1653,7 +1697,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              7 min read
+                              12 min read
                             
                           </span>
                         </div>
@@ -1783,11 +1827,12 @@
 <summary>Abstract</summary>
 <p>This work presents a lightweight framework for UWB-based human activity classification and respiration rate estimation utilizing TDSR P452 ultra-wideband (UWB) radar sensor. The proposed approach classifies four distinct activities: sitting, standing, falling, and walking. Human activity signatures are extracted from the received radar signals using motion filtering and background subtraction to facilitate activity classification. Four filtering techniques—namely FIR2, FIR4, IIR2, and a second-order difference filter—undergo evaluation for motion detection, with the second-order difference filter demonstrating the most effective performance. Radar-based vital sign monitoring offers a contact-free and non-invasive approach for medical and surveillance applications. Band-pass filtering and peak detection are employed to estimate the respiration rate of the subject from the received radar signals. Comparison with manual participant breathing counts validates the accuracy of the estimated respiration rates. </p>
 </details>
+<hr>
 <h2 id="tools">Tools</h2>
 <p><a href="https://tdsr-uwb.com/radar-sensor/">TDSR P452 Radar</a><br>
 <a href="https://tdsr-uwb.com/radar-software/">MRM GUI</a><br>
 <a href="https://in.mathworks.com/products/new_products/release2025a-2025b.html">Matlab R2025b</a> </p>
-<p>Let's start with the basics</p>
+<hr>
 <h2 id="radar-basics">Radar basics</h2>
 <h3 id="what-is-a-radar">What is a Radar?</h3>
 <p>The word radar comes from the acronym <strong>RA</strong>dio <strong>D</strong>etection <strong>A</strong>nd <strong>R</strong>anging. As the name implies, radars use radio waves to determine the distance and velocity of the targets they hit. A radar system usually consists of a transmitter to send out radio signals and a receiver to catch any reflected energy from targets.</p>
@@ -1896,15 +1941,182 @@
 <p>The received signal will look something like in fig.5, as electronics and environment introduce noise into the signal. The range to the object is calculated by determining the round trip distance that light would have travelled in Δt time.</p>
 </li>
 </ol>
-<h2 id="mrm-gui">MRM GUI</h2>
+<hr>
+<h2 id="mrm-ret-gui">MRM RET GUI</h2>
+<p>The Monostatic Radar Module Reconfiguration and Evaluation Tool (MRM RET) is a Microsoft 
+Windows-based Graphical User Interface (GUI) program that provides an easy and illustrative means 
+for (a) manipulating the configuration parameters of either TDSR’s P400 series of UWB modules and 
+(b) demonstrating their operation as Ultra Wideband (UWB) monostatic radar sensors. </p>
+<h3 id="configuration-tab">Configuration Tab</h3>
+<p><img alt="configuration tab" src="../../../../radar/config_tab.png"></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Range</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>PII</code></td>
+<td>Pulse Integration Index: Since the MRM has been designed for coherent operation, it is possible to integrate multiple scans and thereby improve the received Signal-to-Noise Ratio (SNR). Each time the integration is doubled, the SNR of the received signal will improve by 3dB.</td>
+<td>6 - 15 (2^6 - 2^15 pulses)</td>
+<td>PII of 15 will integrate 32,768 (2^15) scans and thereby provide an SNR improvement of 45 dB. <a href="https://youtu.be/NtyU6aKZ-cY?si=b-tJSHsP1nvpw3Ne&amp;t=527">Learn more</a></td>
+</tr>
+<tr>
+<td><code>Transmit Gain</code></td>
+<td>When set to zero, the unit will transmit at the minimum  power supported by the MRM.   Setting to transmit gain to a value of 63 will set the unit to maximum transmit power.</td>
+<td>0 - 63</td>
+<td>Recommended - 63</td>
+</tr>
+<tr>
+<td><code>Start scan</code></td>
+<td>While this field is entered in increments of picoseconds (ps), the MRM converts the input values into “bins,” where each bin is 1.907 ps</td>
+<td>varies depending on swath</td>
+<td>Because this conversion involves rounding, the value shown in Scan Start may not match the value originally entered by the user.  For example, setting a Scan Start value to 5000 will actually result in the Scan Start value being set to 4999.</td>
+</tr>
+<tr>
+<td><code>Scan stop</code></td>
+<td>While this field is entered in increments of ps, it is constrained in two ways. First, the MRM converts the input values from ps into “bins,” where each bin is 1.907ps. Second, the Scan Stop entry is further constrained by the Scan Start point and the MRM rake receiver architecture. The MRM produces a radar scan using several samplers acting in parallel as a rake  receiver.</td>
+<td>varies depending on swath</td>
+<td>Because of this architecture, the difference between Scan Start and Scan Stop must be in even multiples of 5859.36 ps.  This quantizes the radar scan data into blocks of 96 readings covering 5859.36 ps.</td>
+</tr>
+<tr>
+<td><code>Step size</code></td>
+<td>This parameter controls the resolution with which the radar waveaform is captured.</td>
+<td>recommended - 32 bins (equivalent to 1.907*32 ps)</td>
+<td>In other words with a step size of 32, the received radar waveform will be measured every 61ps.</td>
+</tr>
+</tbody>
+</table>
+<details class="tip">
+<summary><img alt="⭐" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/2b50.svg" title=":star:"> How to select scan start and stop values</summary>
+<p><img alt="scan interval" src="../../../../radar/scan_interval.png">
+Each scan requires a certain amount of time to complete.  This time is a function of the integration rate and the size of the scan window (difference between the Scan Start and Scan Stop times).  The time required is determined by the following equations. <br>
+Scan time (µs) = (# of quanta in scan window) * (0.792 µs) * (2^(Pulse Integration Index)) <br>
+Where a quanta (i.e., the rake sampler size) = 5859 ps </p>
+<p>For example, selecting a Scan Start value of 10,000 ps and a Scan Stop value of 21,000 ps results in a requested swath size of 11,000 ps.  Dividing 11,000 by 5859 gives a value of 1.87 quanta.  The MRM will round this up to 2 quanta.  If the user requests a PII of 13, then the minimum scan time (or fastest update rate) will be 12,977 µs (77 Hz).  If the operator enters an Interval higher than this, then the radar will idle between scans. If the operator enters an Interval smaller than this, then the radar will operate as fast as possible.  </p>
+</details>
+<h3 id="control-tab">Control Tab</h3>
+<p><img alt="control tab" src="../../../../radar/control_tab.png"></p>
+<p>Radar scans can be started and stopped by clicking on either the Start Scanning or Stop Scanning buttons. </p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Scan control</code></td>
+<td>By selecting the <strong>Continuous</strong> option, the user is requesting that scans be generated indefinitely at an interval defined by the contents of the “Interval (microseconds)” box.<br> By selecting the <strong>Count</strong> option, the user is requesting that MRM produce the number of scans indicated in the Count field at an interval defined by the contents of the “Interval (microseconds)” field. The maximum allowed interval is 2,000,000 microseconds.</td>
+</tr>
+<tr>
+<td><code>Start scanning</code></td>
+<td>When Start Scanning is selected, the Scan Message ID number will be set equal to the present Message ID number and scanning will begin. Scanning will be executed based on the contents of the Scan Control box.</td>
+</tr>
+<tr>
+<td><code>Stop scanning</code></td>
+<td>Clicking on Stop Scanning will stop the scans and will reset the Scan Message ID number to the current value of the Message ID number.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="scan-tab">Scan Tab</h3>
+<p>The Scan Tab is used to view scan parameters as well as raw and processed data. An almost live received signal can be observed here.
+<img alt="scan tab" src="../../../../radar/scan_tab.png"></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Scan data plot</code></td>
+<td>This is a plot of radar scan amplitude or reflectivity (y-axis) as a function of time in nanoseconds (ns) (x-axis). (The API reports the reflectivity as an integer value and time in ps.)  The vertical scale is set when the Scan Tab is selected.  The horizontal scan uses the Scan Start value as the origin and sets that maximum so that it includes the Scan Stop value.</td>
+</tr>
+<tr>
+<td><code>First detection</code></td>
+<td>This is an approximate measurement of the distance, in meters, from the Scan Start point to the First Detection. <br> Distance = (Detection_ps – ScanStart_ps)<em>(Seconds/picoseconds)</em>C/2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="mrm-server-tab">MRM Server tab</h3>
+<p>While the MRM Service normally runs on the same PC on which MRM RET is operating, it is 
+possible to run the MRM Service from a different PC.  To cause the service to operate on a different 
+machine, the user should click the “Disconnect” button, enter the IP address of the target PC, and then 
+click the “Connect” button. 
+<img alt="server tab" src="../../../../radar/server_tab.png"></p>
+<table>
+<thead>
+<tr>
+<th>Filter settings</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Raw</code></td>
+<td>Clicking this box will pass raw scans from the MRM Server to MRM RET, enabling the display of MRM raw radar scan data.</td>
+</tr>
+<tr>
+<td><code>Threshold multiple</code></td>
+<td>The value selected will set the sensitivity of the detector. The Threshold Multiple is the number of standard deviations that a received signal must deviate from nominal in order to generate a detection. Set to 5.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="logging-tab">Logging Tab</h3>
+<p><img alt="logging tab" src="../../../../radar/logging_tab.png"></p>
+<p>The Logging Tab is provided by MRM RET to support data collection and post-processing analysis. The logfile is a comma-separated variable ASCII .csv text file. </p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Directory</code></td>
+<td>Logfiles will be stored in the directory indicated in the “Directory” field. The user may change the target directory by using the “change” button</td>
+</tr>
+<tr>
+<td><code>Logfile Prefix</code></td>
+<td>The logfile names are designated by the “Logfile Prefix” field.  The user can change the name by entering the desired prefix name in the ‘Logfile Prefix” field.</td>
+</tr>
+<tr>
+<td><code>Start logging</code></td>
+<td>When the “Start Logging” button is clicked, MRM RET will add a three digit suffix number to the file name. This name will be displayed on the screen. Each time the log is stopped and started, this suffix number will be incremented. If you don't log the data it cannot be retrived in the future. So log data before every scan if you want to save it.</td>
+</tr>
+<tr>
+<td><code>Stop logging</code></td>
+<td>When the “Stop Logging” button is clicked, MRM RET will stop logging and the logfile will be closed. <br> <strong>DO NOT FORGET TO CLICK "STOP LOGGING" BUTTON AT THE END OF EACH SCAN SESSION. ELSE THE DATA CANNOT BE PLOTED</strong></td>
+</tr>
+<tr>
+<td><code>New logfile</code></td>
+<td>Clicking the “New Logfile” button will close the existing file, open a new logfile with an incremented number, and continue logging. This can be accomplished in the middle of a scanning sequence because clicking this button does not stop and restart the MRM, it merely redirects that data flow to a new file.</td>
+</tr>
+</tbody>
+</table>
 <h3 id="initial-setup">Initial setup</h3>
-<h3 id="data-collection">Data collection</h3>
-<h3 id="controls">Controls</h3>
-<p>| Field       | Description  | Range| Example |
-| ----------- | ------------------------------------ |
-| <code>GET</code>       | <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"></path></svg></span>     Fetch resource  |
-| <code>PUT</code>       | <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M.41 13.41 6 19l1.41-1.42L1.83 12m20.41-6.42L11.66 16.17 7.5 12l-1.43 1.41L11.66 19l12-12M18 7l-1.41-1.42-6.35 6.35 1.42 1.41z"></path></svg></span> Update resource |
-| <code>DELETE</code>    | <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg></span>     Delete resource |</p>
+<p>We used the USB interface which is the simplest just connect directly to the computer. It works fine for the MRM configuration, but can become a bottlneck(data rates are slower and the lag is noticable after a few minutes). If you need to operate in the Rangenet configuration, ethernet is preferablable.</p>
+<ol>
+<li>
+<p>Connect the MRM to the node and configure the settings in the configuration tab. Next click on the <code>get Configuration button</code> and verify the values. Once satisfied click on <code>Set Configuration</code> button, this will save the values to the node. </p>
+</li>
+<li>
+<p>Select a logging folder and start logging (naming convention is important) in the logging tab. Navigate to scan tab, set the interval and scan counter to the desired values and start scanning. Once it's done, be sure to stop logging in the logging tab (we had to repeat so many experiments just because i forgot to stop the logging and all the data was lost).</p>
+</li>
+<li>
+<p>Plot the data in the .csv file in matlab.</p>
+</li>
+</ol>
+<h3 id="data-organization-csv-file">Data organization (csv file)</h3>
+<hr>
 <h2 id="a-human-activity-signatures">A. Human Activity Signatures</h2>
 <h3 id="radar-signature">Radar Signature</h3>
 <p>A radar signature consists of information about characteristic echo signals of a reflecting object (target). Like a fingerprint, it is a way to determine the type of target.</p>
@@ -1917,11 +2129,14 @@ The WSR-88D(Weather Surveillance Radar, 1988 Doppler) operates by sending out di
 <p>The hook echo is the classic radar signature for tornadic supercells, appearing as a curved, hook-shaped appendage on reflectivity scans.</p>
 <p>Recognition of the hook echo has been around for decades; even before Doppler radar was invented and instituted in forecast offices, forecasters issued tornado warnings solely based on the visual appearance of a hook echo on radar.</p>
 </details>
+<hr>
 <h2 id="b-respiration-rate-measurement">B. Respiration rate measurement</h2>
+<hr>
 <h2 id="credits">Credits</h2>
 <ol>
 <li>To Prof. Robert M. O'Donnell, MIT Lincoln Laboratory for the lecture series: Introduction to Radar Systems.</li>
 <li>To Brian Douglas, Matlab techtalks for the video on Pulse-Doppler Radar.</li>
+<li>SOURCE: Monostatic Radar Module Reconfiguration and Evaluation Tool (MRM RET) User Guide </li>
 </ol></div>
 
 
