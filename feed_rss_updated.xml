@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Thu, 24 Sep 2026 17:22:34 -0000</pubDate>
-    <lastBuildDate>Thu, 24 Sep 2026 17:22:34 -0000</lastBuildDate>
+    <pubDate>Sun, 27 Sep 2026 04:17:02 -0000</pubDate>
+    <lastBuildDate>Sun, 27 Sep 2026 04:17:02 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -32,21 +32,20 @@
     
     
     <item>
-      <title>Hi there! Glad you chanced upon this page.</title>
+      <title>Hi there!</title>
       
       
       
       
-      <description>&lt;h1&gt;Hi there! Glad you chanced upon this page.&lt;/h1&gt;
-&lt;p&gt;Welcome to my documentation site. Here, you can explore my completed projects, certificates, scores, and ongoing research.  &lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;JHANSI logo?&#34; src=&#34;logo.png&#34;&gt;{width=&#34;200&#34;, align=&#34;left&#34;}
-This is me, Jhansi. So the primary objective of this site is to help students 
-Welcome to my documentation site. Here, you can explore my completed projects, certificates, scores, and ongoing research.  &lt;/p&gt;</description>
-      <link>https://sitename.example/2026/07/08/hi-there-glad-you-chanced-upon-this-page/</link>
+      <description>&lt;h1&gt;Hi there!&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;JHANSI logo?&#34; src=&#34;logo.png&#34;&gt;{width=&#34;150&#34;, align=&#34;left&#34;}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&#34;LEARNING SHOULD BE FUN&#34;&lt;/strong&gt;&lt;br&gt;
+I am Jhansi, and I am glad you chanced upon my documentation site. Here you can explore my projects, research certificates, scores and my current work.  &lt;/p&gt;</description>
+      <link>https://sitename.example/2026/07/08/hi-there/</link>
       <pubDate>Sun, 13 Sep 2026 18:04:44 +0000</pubDate>
       <source url="https://sitename.example/feed_rss_updated.xml">JHANSI REDDY TANGIRALA</source>
       
-      <guid isPermaLink="true">https://sitename.example/2026/07/08/hi-there-glad-you-chanced-upon-this-page/</guid>
+      <guid isPermaLink="true">https://sitename.example/2026/07/08/hi-there/</guid>
       
     </item>
     
