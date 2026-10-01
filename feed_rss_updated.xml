@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Thu, 01 Oct 2026 11:21:25 -0000</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2026 11:21:25 -0000</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2026 16:13:49 -0000</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2026 16:13:49 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -84,8 +84,8 @@ So, here&#39;s one approach to accelerate those computations. :key: Paralellism&
       
       
       <description>&lt;h1&gt;Human Activity and Vital Sign Recognition using Ultra Wide Band Radar&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;title radar&#34; src=&#34;resp.jpg&#34;&gt;{width=&#34;500&#34;}&lt;/p&gt;
-&lt;p&gt;UWB Radar, a solution to both contact-free respiration monitoring and non-invasive human motion detection.&lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;type:video&#34; src=&#34;radar_signal.mp4&#34;&gt;
+UWB Radar, a solution to both contact-free respiration monitoring and non-invasive human motion detection.&lt;/p&gt;</description>
       <link>https://sitename.example/2025/10/06/human-activity-and-vital-sign-recognition-using-ultra-wide-band-radar/</link>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
       <source url="https://sitename.example/feed_rss_updated.xml">JHANSI REDDY TANGIRALA</source>

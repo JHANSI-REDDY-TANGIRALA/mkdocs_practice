@@ -1318,10 +1318,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#data-organization-csv-file" class="md-nav__link">
+  <a href="#data-organization" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Data organization (csv file)
+        Data organization
       
     </span>
   </a>
@@ -1357,10 +1357,76 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#experimentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Experimentation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#activity-feature-extraction" class="md-nav__link">
     <span class="md-ellipsis">
       
         Activity feature extraction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparative-evaluation-of-motion-filters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparative Evaluation of Motion Filters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#envelope-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Envelope detection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#background-subtraction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background subtraction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#range-compensation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Range compensation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Results
       
     </span>
   </a>
@@ -1511,7 +1577,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              13 min read
+                              16 min read
                             
                           </span>
                         </div>
@@ -1623,8 +1689,7 @@
 
 
 <div><h1 id="human-activity-and-vital-sign-recognition-using-ultra-wide-band-radar">Human Activity and Vital Sign Recognition using Ultra Wide Band Radar</h1>
-<p><img alt="title radar" src="../../../../radar/resp.jpg" width="500"></p>
-<p>UWB Radar, a solution to both contact-free respiration monitoring and non-invasive human motion detection.</p>
+<p><div class="video-container"><video style="width:46%" muted controls autoplay alt="type:video"><source src="../../../../radar/radar_signal.mp4" type="video/mp4"></source></video></div></p>
 <!-- more -->
 
 <p>Respiratory rate is an essential clinical parameter, often assessed using ECG-based systems; however, prolonged electrode-based monitoring may cause discomfort or be unsuitable for patients with skin complications. UWB radar provides a contact-free alternative that can overcome such limitations. </p>
@@ -1930,7 +1995,7 @@ click the “Connect” button.</p>
 <p>Plot the data in the .csv file in matlab.</p>
 </li>
 </ol>
-<h3 id="data-organization-csv-file">Data organization (csv file)</h3>
+<h3 id="data-organization">Data organization</h3>
 <p>The radar saves the logged data in .csv file (<a href="../../../../radar/csv_file.csv">example</a>) In the file data entries such as message Id, Timestamp, scan start, scan stop, scan step, filters, number of samples, scan data, etc are logged.</p>
 <p>We are interested in Scan data. we organize the data in the form of a matrix. X-axis consists of data entries of an individual scan (quanta * 96 readings). While the Y-axis shows us no. of scans.</p>
 <p><img alt="range time matrix" src="../../../../radar/rt_matrix.png"></p>
@@ -1939,6 +2004,9 @@ the amplitude of the received radar signal at the mth scan and
 the nth fast-time index.</p>
 <hr>
 <h2 id="a-human-activity-signatures">A. Human Activity Signatures</h2>
+<p><img alt="activities" src="../../../../radar/activities.png"></p>
+<p>UWB radar provides high-resolution ranging and can penetrate walls, making it highly effective for human activity detection.</p>
+<p>Unlike cameras or wearables, it successfully monitors activities while fully preserving user privacy.</p>
 <h3 id="radar-signature">Radar Signature</h3>
 <p>A radar signature consists of information about characteristic echo signals of a reflecting object (target). Like a fingerprint, it is a way to determine the type of target.</p>
 <details class="example">
@@ -1950,22 +2018,149 @@ The WSR-88D(Weather Surveillance Radar, 1988 Doppler) operates by sending out di
 <p>The hook echo is the classic radar signature for tornadic supercells, appearing as a curved, hook-shaped appendage on reflectivity scans.</p>
 <p>Recognition of the hook echo has been around for decades; even before Doppler radar was invented and instituted in forecast offices, forecasters issued tornado warnings solely based on the visual appearance of a hook echo on radar.</p>
 </details>
+<h3 id="experimentation">Experimentation</h3>
+<p>The experiments were performed in a closed room with some furniture such as beds, tables, chairs and cupboards. The following activities were recorded:</p>
+<ol>
+<li>Walking away from the radar to a distance of 3m and coming back. </li>
+<li>Sitting down at a distance of 2m. </li>
+<li>Standing up at a distance of 2m. </li>
+<li>Coming towards radar from a distance of 4m and falling suddenly at a distance of about 1.5m from the radar.</li>
+</ol>
 <h3 id="activity-feature-extraction">Activity feature extraction</h3>
 <pre class="mermaid"><code>graph LR
   A[logged &lt;br&gt; data] --&gt; B[Range &lt;br&gt; Time &lt;br&gt; matrix];
   B --&gt; C[Motion &lt;br&gt; filtering];
-  C --&gt; D[envelop &lt;br&gt; detection];
+  C --&gt; D[envelope &lt;br&gt; detection];
   D --&gt; E[Static &lt;br&gt; background &lt;br&gt; removal];
   E --&gt; F[Range &lt;br&gt; bias &lt;br&gt; compensation];</code></pre>
+<p>The TDSR P452 UWB radar continuously transmits short-duration pulses and records the reflected echoes from the target.</p>
+<p>The received radar scans are collected over time and organized into a two-dimensional Range-Time Matrix (RTM), where rows represent successive scans and columns represent range bins. The range vector is calculated using:
+$$
+R_j = \frac{c \cdot (j \cdot \Delta t_f)}{2}
+\tag{1}
+$$</p>
+<h3 id="comparative-evaluation-of-motion-filters">Comparative Evaluation of Motion Filters</h3>
+<p>A comparative study of four motion filters was conducted to improve the separation of moving targets from stationary background reflections. </p>
+<p>Motion Filters Evaluated:</p>
+<ul>
+<li>FIR2 – Two Tap Difference Filter
+$$
+Y_{m,n}^{(\mathrm{FIR2})}
+= X_{m,n} - X_{m-1,n}
+$$</li>
+<li>FIR4 – Four Tap Difference Filter
+$$
+Y_{m,n}^{(\mathrm{FIR4})}
+= 1.0X_{m,n} - 0.6X_{m-1,n} - 0.3X_{m-2,n} - 0.1X_{m-3,n}
+$$</li>
+<li>IIR2 – Second-order recursive filter 
+$$
+Y_{m,n}^{(\mathrm{IIR2})}
+=0.8728X_{m,n} - 1.7455X_{m-1,n} + 0.8728X_{m-2,n} + 1.7292Y_{m-1,n}^{(\mathrm{IIR2})} - 0.7618Y_{m-2,n}^{(\mathrm{IIR2})}
+$$</li>
+<li>SOD – Second-Order Difference filter
+$$
+Y_{m,n}^{(\mathrm{SOD})}
+= X_{m+1,n} - 2X_{m,n} + X_{m-1,n}
+$$</li>
+</ul>
+<h3 id="envelope-detection">Envelope detection</h3>
+<p>The motion-filtered signal is subjected to envelope detection to extract its energy profile. The each element in the envelope matrix is computed as:
+$$
+E_{m,n}^{(\lambda)} = \left|Y_{m,n}^{(\lambda)}\right|
+$$
+where each element 𝐸𝑚,𝑛 corresponds to the magnitude of the signal at the 𝑚𝑡ℎ scan and 𝑛𝑡ℎ fast-time index.</p>
+<h3 id="background-subtraction">Background subtraction</h3>
+<p>Subsequently, background subtraction is performed to eliminate static reflections from the environment. The background is estimated as the mean across all slow-time scans:
+$$
+B^{(\lambda)} = \frac{1}{M}\sum_{m=1}^{M}\widetilde{E}_{m,n}^{(\lambda)}
+$$</p>
+<h3 id="range-compensation">Range compensation</h3>
+<p>To obtain an accurate range representation, a range compensation of approximately 2 m is applied.</p>
+<h3 id="results">Results</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Raw Scans</th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="raw_walking" src="../../../../radar/raw_walk.png"></td>
+<td style="text-align: center;"><img alt="raw stand" src="../../../../radar/raw_stand.png"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="raw sit" src="../../../../radar/raw_sit.png"></td>
+<td style="text-align: center;"><img alt="raw fall" src="../../../../radar/raw_fall.png"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Motion filtered scans</th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="motion_walk" src="../../../../radar/motion_walk.png"></td>
+<td style="text-align: center;"><img alt="motion_stand" src="../../../../radar/motion_stand.png"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="motion_sit" src="../../../../radar/motion_sit.png"></td>
+<td style="text-align: center;"><img alt="motion_fall" src="../../../../radar/motion_fall.png"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Walking Activity: Comparison of Motion Filter Outputs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="comp_walk" src="../../../../radar/comp_walk.png"></td>
+</tr>
+</tbody>
+</table>
 <hr>
 <h2 id="b-respiration-rate-measurement">B. Respiration rate measurement</h2>
+<p><img alt="title radar" src="../../../../radar/resp.jpg" width="500"></p>
+<p>Respiration can be used as a good indicator to monitor vital signs.</p>
+<p>Monitoring respiration rates, can also help identify high-risk patients and prevent dangerous situations.</p>
+<p><img alt="contact_resp" src="../../../../radar/contact_resp.png"></p>
+<p>Contact-based methods to measure respiration can be classified into four approaches:</p>
+<ol>
+<li>manual measurements </li>
+<li>measuring changes in impedance using electrodes</li>
+<li>measuring pressure using belt-type sensors</li>
+<li>measuring airflow from the nose and mouth</li>
+</ol>
+<p><img alt="uwb_resp" src="../../../../radar/uwb_resp.png"></p>
+<p>However, prolonged electrode-based monitoring may cause discomfort or be unsuitable for patients with skin complications. </p>
+<p>UWB radar provides a contact-free alternative that can overcome such limitations</p>
 <h3 id="signal-processing-pipeline">Signal processing pipeline</h3>
-<pre class="mermaid"><code>graph LR
+<p></p><pre class="mermaid"><code>graph LR
   A[logged &lt;br&gt; data] --&gt; B[Range &lt;br&gt; Time &lt;br&gt; matrix];
   B --&gt; C[Bandpass &lt;br&gt; filtering];
   C --&gt; D[FFT];
   D --&gt; E[Peak &lt;br&gt; detection];
   E --&gt; F[respiration &lt;br&gt; rate];</code></pre>
+<img alt="chest_resp" src="../../../../radar/chest_resp.png">
+<p>When a UWB pulse reflects from the human chest, the return varies due to periodic expansion and contraction of the thorax.</p>
+<p>Let 𝑑0 be the nominal antenna–chest distance and 𝑚(𝑡)the small displacement caused by breathing and heartbeat.
+$$
+d(t)
+=
+d_0
++
+m_b\sin(2\pi f_b t)
++
+m_h\sin(2\pi f_h t)
+$$</p>
 <hr>
 <h2 id="credits">Credits</h2>
 <ol>
@@ -2114,6 +2309,10 @@ The WSR-88D(Weather Surveillance Radar, 1988 Doppler) operates by sending out di
     
     
       <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
