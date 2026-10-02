@@ -76,6 +76,8 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true 
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -87,4 +89,6 @@ extra:
       link: tel:+91-9391448070
 hooks:
   - hooks/socialmedia.py
-
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
