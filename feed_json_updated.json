@@ -35,6 +35,21 @@
             "tags": null
         },
         {
+            "id": "https://sitename.example/2026/01/09/sparse-matrix-multiplication/",
+            "url": "https://sitename.example/2026/01/09/sparse-matrix-multiplication/",
+            "title": "Sparse Matrix Multiplication",
+            "content_html": "<h1>Sparse Matrix Multiplication</h1>\n<p>Verilog implementations for various matrix multiplication algorithms targeting RISC-V vector processors, based on the paper <a href=\"paper.pdf\">Optimizing Structured-Sparse Matrix Multiplication\nin RISC-V Vector Processors</a>.</p>",
+            "image": null,
+            "date_modified": "2026-04-15T00:00:00+00:00",
+            "date_published": "2026-01-09T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "623182@student.nitandhra.ac.in (JHANSI REDDY TANGIRALA)"
+                }
+            ],
+            "tags": null
+        },
+        {
             "id": "https://sitename.example/2025/10/06/human-activity-and-vital-sign-recognition-using-ultra-wide-band-radar/",
             "url": "https://sitename.example/2025/10/06/human-activity-and-vital-sign-recognition-using-ultra-wide-band-radar/",
             "title": "Human Activity and Vital Sign Recognition using Ultra Wide Band Radar",

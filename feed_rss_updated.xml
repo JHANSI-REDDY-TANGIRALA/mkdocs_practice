@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Fri, 02 Oct 2026 07:28:05 -0000</pubDate>
-    <lastBuildDate>Fri, 02 Oct 2026 07:28:05 -0000</lastBuildDate>
+    <pubDate>Mon, 05 Oct 2026 12:00:20 -0000</pubDate>
+    <lastBuildDate>Mon, 05 Oct 2026 12:00:20 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -68,6 +68,27 @@ So, here&#39;s one approach to accelerate those computations. :key: Paralellism&
       <source url="https://sitename.example/feed_rss_updated.xml">JHANSI REDDY TANGIRALA</source>
       
       <guid isPermaLink="true">https://sitename.example/2026/01/09/custom-hardware-accelerator-for-matrix-multiplication-using-simd-processing-element/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Sparse Matrix Multiplication</title>
+      
+      
+        
+      <author>623182@student.nitandhra.ac.in (JHANSI REDDY TANGIRALA)</author>
+        
+      
+      
+      
+      <description>&lt;h1&gt;Sparse Matrix Multiplication&lt;/h1&gt;
+&lt;p&gt;Verilog implementations for various matrix multiplication algorithms targeting RISC-V vector processors, based on the paper &lt;a href=&#34;paper.pdf&#34;&gt;Optimizing Structured-Sparse Matrix Multiplication
+in RISC-V Vector Processors&lt;/a&gt;.&lt;/p&gt;</description>
+      <link>https://sitename.example/2026/01/09/sparse-matrix-multiplication/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <source url="https://sitename.example/feed_rss_updated.xml">JHANSI REDDY TANGIRALA</source>
+      
+      <guid isPermaLink="true">https://sitename.example/2026/01/09/sparse-matrix-multiplication/</guid>
       
     </item>
     
